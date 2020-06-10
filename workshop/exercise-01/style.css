@@ -1,0 +1,31 @@
+body{
+    margin:0;
+}
+
+.container {
+    min-height:100vh;
+    font-family: 'poppins';
+    text-align:center;
+}
+
+nav, section, footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+nav, footer {
+    background-color: #3a3633;
+    color:white;
+    height: 10vh;
+}
+
+section {
+    height: 80vh;
+}
