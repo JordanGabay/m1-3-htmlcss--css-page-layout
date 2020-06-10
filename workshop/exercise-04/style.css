@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    font-family: 'poppins';
+}
+
+main {
+    text-align:center;
+    margin-top: 10px;
+}
+
+.brow{
+    color: #3a3633;
+    border: 1px solid #3a3633;
+    border-radius:3px;
+    padding: 4px auto;
+    line-height: 1.50;
+    font-size: 1rem;
+    display:inline-block;
+}
+
+main > h2 {
+    margin: 8px;
+}
+
+main > p {
+    max-width:400px;
+    margin: 0 auto;
+}
+
+main > a {
+    margin-top:5px;
+}
+
+.link {
+    color:blue;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.link::after {
+    content: '>';
+    padding-left: 10px;
+}
+
+
